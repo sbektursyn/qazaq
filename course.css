@@ -39,6 +39,28 @@
 }
 
 
+.find_text{
+	position: absolute;
+	width: 745px;
+	height: 36px;
+	right: 580px;
+	top: 12px;
+	left: 450px;
+
+	font-family: 'Berlingske Sans';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+	/* or 150% */
+	display: flex;
+	align-items: center;
+
+	/* третестепенные элементы */
+	color: #A1A1AA;
+}
+
+
 .title {
 	width: 80px;
 	height: 60px;
@@ -297,7 +319,7 @@
 
 .sixth_title {
 	position: absolute;
-	width: 315.8px;
+	width: 100px;
 	margin-top: 0;
 	height: 624px;
 	left: 70%;
@@ -357,8 +379,7 @@
 @media (min-width: 0px){
 	.upper {
 		width: 100%;
-		margin-left: 10%;
-		margin-right: 10%;
+
 	}
 	.find {
 		width: 40px;
@@ -372,6 +393,9 @@
 		padding-top: 10px;
 		padding-left: 10px;
 	}
+	.find_text {
+		display: none;
+	}
 
 
 	.title {
@@ -382,6 +406,8 @@
 		margin-top: 16px;
 
 	}
+
+
 
 	.title_word {
 		margin-top: 0;
@@ -413,13 +439,12 @@
 	}
 
 	.first_title, .second_title, .third_title, .fourth_title, .fifth_title{ padding-right: 2%; padding-left: 2% }
-	.sixth_title {padding-right: 2%; left: 30%;}
+	.sixth_title {padding-right: 2%; left: 25%;}
 }
+
 @media (min-width: 768px){
 	.upper {
 		width: 100%;
-		margin-left: 10%;
-		margin-right: 10%;
 	}
 
 	.find {
@@ -453,7 +478,7 @@
 @media (min-width: 1400px){
 	.upper {
 		width: 100%;
-		margin-left: 30%;
+		margin-left: 290px;
 	}
 	.menu{
 		margin-top: 500px;
@@ -504,6 +529,57 @@
 
 }
 
+@media (min-width: 1920px){
+	.upper {
+		width: 100%;
+	}
+	.menu{
+		margin-top: 500px;
+		margin-left: 20px;
+	}
+	.elements{
+		width: 1200px;
+	}
+	.find {
+		width: 950px;
+		border-radius: 20px;
+	}
+	.title {
+		display: none;
+	}
+	.ava {
+		width: 40px;
+		height: 40px;
+		background-color: #c4c4c4;
+		margin-left: 18px;
+		margin-top: 16px;
+		border-radius: 50%;
+	}
+	.important_information{
+		width: 800px;
+		margin-left: 370px;
+	}
+	.cover_text {
+		width: 1000px;
+		margin-left: 300px;
+	}
+
+	.tasks{
+		display: flex;
+		flex-direction: column;
+	}
+	.first_title, .second_title, .third_title, .fourth_title, .fifth_title{ padding-right: 10%; padding-left: 10% }
+	.sixth_title {
+		padding-right: 5%;
+		left: 69%;
+	}
+	.more {
+		display: none;
+	}
+	.btn{
+		display: none;
+	}
+}
 
 
 
