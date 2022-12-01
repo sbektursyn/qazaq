@@ -1,3 +1,8 @@
+
+body {
+	margin: 0;
+}
+
 .wrapper {
 	display: flex;
 	flex-direction: column;
@@ -21,7 +26,16 @@
 }
 
 #modal:checked ~ .menu{
-	display: none;
+	position: absolute;
+	width: 320px;
+	height: 1600px;
+	padding-top: 20px;
+	display: flex;
+	flex-direction: column;
+	transition: .5s all;
+	z-index: 100;
+	box-shadow: 0px 6px 12px -6px rgba(24, 39, 75, 0.12), 0px 8px 24px -4px rgba(24, 39, 75, 0.08);
+	background-color: #fff;
 }
 
 .find {
@@ -118,17 +132,7 @@
 
 
 .menu {
-	position: absolute;
-	width: 320px;
-	height: 1600px;
-	margin-top: 72px;
-	padding-top: 20px;
-	display: flex;
-	flex-direction: column;
-	transition: .5s all;
-	z-index: 100;
-	box-shadow: 0px 6px 12px -6px rgba(24, 39, 75, 0.12), 0px 8px 24px -4px rgba(24, 39, 75, 0.08);
-	background-color: #fff;
+	display: none;
 }
 
 .menu_title {
@@ -232,6 +236,7 @@
 	background-color: #00a8cb;
 	align-items: center;
 	justify-content: center;
+
 }
 
 .elements {
@@ -317,12 +322,13 @@
 	color: #FFFFFF;
 }
 
-.sixth_title {
+/*.sixth_title {
 	position: absolute;
 	width: 100px;
 	margin-top: 0;
 	height: 624px;
 	left: 70%;
+	padding: 0;
 	top: 111px;
 
 	font-family: 'Berlingske Serif';
@@ -334,16 +340,30 @@
 	letter-spacing: 0.03em;
 
 	color: #FFFFFF;
+}*/
+
+.sixth_title {
+	width: 100px;
+	position: absolute;
+	margin-top: -340px;
+	font-size: 481px;
+	margin-left: 45px;
+	color: #fff;
 }
+
+
 
 
 .important_information {
 	z-index: 10;
-	width: 320px;
+	width: 100%;
 }
 .important_number {
 	font-size: 14px;
 	padding-left: 20px;
+	width: 150px;
+	margin:0;
+	padding-top: 14px;
 }
 .important_title {
 	font-size: 18px;
@@ -380,6 +400,9 @@
 	.upper {
 		width: 100%;
 
+	}
+	.menu{
+		margin-top: 72px;
 	}
 	.find {
 		width: 40px;
@@ -439,12 +462,15 @@
 	}
 
 	.first_title, .second_title, .third_title, .fourth_title, .fifth_title{ padding-right: 2%; padding-left: 2% }
-	.sixth_title {padding-right: 2%; left: 25%;}
+	.sixth_title { float: right;}
 }
 
 @media (min-width: 768px){
 	.upper {
 		width: 100%;
+	}
+	.menu{
+		margin-top: 72px;
 	}
 
 	.find {
@@ -470,15 +496,14 @@
 	}
 	.first_title, .second_title, .third_title, .fourth_title, .fifth_title{ padding-right: 5%; padding-left: 5% }
 	.sixth_title {
-		padding-right: 5%;
-		left: 60%;
+		left: 40%;
 	}
 }
 
 @media (min-width: 1400px){
 	.upper {
 		width: 100%;
-		margin-left: 290px;
+		margin-left: 200px;
 	}
 	.menu{
 		margin-top: 500px;
@@ -508,7 +533,7 @@
 	}
 	.cover_text {
 		width: 1000px;
-		margin-left: 65px;
+		margin-left: 25px;
 	}
 
 	.tasks{
@@ -531,7 +556,8 @@
 
 @media (min-width: 1920px){
 	.upper {
-		width: 100%;
+		width: 1920px;
+		margin-left: 750px;
 	}
 	.menu{
 		margin-top: 500px;
