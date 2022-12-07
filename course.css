@@ -1,6 +1,176 @@
+@font-face {
+    font-family: 'Berlingske Serif';
+    src: url('BerlingskeSerif-ExtraBold.eot');
+    src: local('Berlingske Serif Extra Bold'), local('BerlingskeSerif-ExtraBold'),
+        url('BerlingskeSerif-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('BerlingskeSerif-ExtraBold.woff2') format('woff2'),
+        url('BerlingskeSerif-ExtraBold.woff') format('woff'),
+        url('BerlingskeSerif-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Berlingske Serif';
+    src: url('BerlingskeSerif-Md.eot');
+    src: local('BerlingskeSerif-Md'),
+        url('BerlingskeSerif-Md.eot?#iefix') format('embedded-opentype'),
+        url('BerlingskeSerif-Md.woff2') format('woff2'),
+        url('BerlingskeSerif-Md.woff') format('woff'),
+        url('BerlingskeSerif-Md.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Berlingske Serif';
+    src: url('BerlingskeSerif-LtItalic.eot');
+    src: local('BerlingskeSerif-LtItalic'),
+        url('BerlingskeSerif-LtItalic.eot?#iefix') format('embedded-opentype'),
+        url('BerlingskeSerif-LtItalic.woff2') format('woff2'),
+        url('BerlingskeSerif-LtItalic.woff') format('woff'),
+        url('BerlingskeSerif-LtItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Berlingske Serif';
+    src: url('BerlingskeSerif-BoldItalic.eot');
+    src: local('Berlingske Serif Bold Italic'), local('BerlingskeSerif-BoldItalic'),
+        url('BerlingskeSerif-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('BerlingskeSerif-BoldItalic.woff2') format('woff2'),
+        url('BerlingskeSerif-BoldItalic.woff') format('woff'),
+        url('BerlingskeSerif-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Berlingske Serif';
+    src: url('BerlingskeSerif-ExtBdIta.eot');
+    src: local('Berlingske Serif ExtBd Ita'), local('BerlingskeSerif-ExtBdIta'),
+        url('BerlingskeSerif-ExtBdIta.eot?#iefix') format('embedded-opentype'),
+        url('BerlingskeSerif-ExtBdIta.woff2') format('woff2'),
+        url('BerlingskeSerif-ExtBdIta.woff') format('woff'),
+        url('BerlingskeSerif-ExtBdIta.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Berlingske Serif';
+    src: url('BerlingskeSerif-SemBdIta.eot');
+    src: local('Berlingske Serif SemBd Ita'), local('BerlingskeSerif-SemBdIta'),
+        url('BerlingskeSerif-SemBdIta.eot?#iefix') format('embedded-opentype'),
+        url('BerlingskeSerif-SemBdIta.woff2') format('woff2'),
+        url('BerlingskeSerif-SemBdIta.woff') format('woff'),
+        url('BerlingskeSerif-SemBdIta.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Berlingske Serif';
+    src: url('BerlingskeSerif-SemiBold.eot');
+    src: local('Berlingske Serif Semi Bold'), local('BerlingskeSerif-SemiBold'),
+        url('BerlingskeSerif-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('BerlingskeSerif-SemiBold.woff2') format('woff2'),
+        url('BerlingskeSerif-SemiBold.woff') format('woff'),
+        url('BerlingskeSerif-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Berlingske Serif';
+    src: url('BerlingskeSerif-Lt.eot');
+    src: local('BerlingskeSerif-Lt'),
+        url('BerlingskeSerif-Lt.eot?#iefix') format('embedded-opentype'),
+        url('BerlingskeSerif-Lt.woff2') format('woff2'),
+        url('BerlingskeSerif-Lt.woff') format('woff'),
+        url('BerlingskeSerif-Lt.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Berlingske Serif';
+    src: url('BerlingskeSerif-Italic.eot');
+    src: local('Berlingske Serif Italic'), local('BerlingskeSerif-Italic'),
+        url('BerlingskeSerif-Italic.eot?#iefix') format('embedded-opentype'),
+        url('BerlingskeSerif-Italic.woff2') format('woff2'),
+        url('BerlingskeSerif-Italic.woff') format('woff'),
+        url('BerlingskeSerif-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Berlingske Serif';
+    src: url('BerlingskeSerif-Regular.eot');
+    src: local('Berlingske Serif Regular'), local('BerlingskeSerif-Regular'),
+        url('BerlingskeSerif-Regular.eot?#iefix') format('embedded-opentype'),
+        url('BerlingskeSerif-Regular.woff2') format('woff2'),
+        url('BerlingskeSerif-Regular.woff') format('woff'),
+        url('BerlingskeSerif-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Berlingske Serif';
+    src: url('BerlingskeSerif-Bold.eot');
+    src: local('Berlingske Serif Bold'), local('BerlingskeSerif-Bold'),
+        url('BerlingskeSerif-Bold.eot?#iefix') format('embedded-opentype'),
+        url('BerlingskeSerif-Bold.woff2') format('woff2'),
+        url('BerlingskeSerif-Bold.woff') format('woff'),
+        url('BerlingskeSerif-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Berlingske Serif';
+    src: url('BerlingskeSerif-MdItalic.eot');
+    src: local('BerlingskeSerif-MdItalic'),
+        url('BerlingskeSerif-MdItalic.eot?#iefix') format('embedded-opentype'),
+        url('BerlingskeSerif-MdItalic.woff2') format('woff2'),
+        url('BerlingskeSerif-MdItalic.woff') format('woff'),
+        url('BerlingskeSerif-MdItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Berlingske Serif';
+    src: url('BerlingskeSerif-BlkItalic.eot');
+    src: local('BerlingskeSerif-BlkItalic'),
+        url('BerlingskeSerif-BlkItalic.eot?#iefix') format('embedded-opentype'),
+        url('BerlingskeSerif-BlkItalic.woff2') format('woff2'),
+        url('BerlingskeSerif-BlkItalic.woff') format('woff'),
+        url('BerlingskeSerif-BlkItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Berlingske Serif';
+    src: url('BerlingskeSerif-Blk.eot');
+    src: local('BerlingskeSerif-Blk'),
+        url('BerlingskeSerif-Blk.eot?#iefix') format('embedded-opentype'),
+        url('BerlingskeSerif-Blk.woff2') format('woff2'),
+        url('BerlingskeSerif-Blk.woff') format('woff'),
+        url('BerlingskeSerif-Blk.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
 body {
 	margin: 0;
 }
+
+
 
 .wrapper {
 	display: flex;
@@ -15,6 +185,26 @@ body {
 	height: 72px;
 	display: flex;
 	justify-content: center;
+}
+
+.logo{
+	height: 29px;
+	left: 344px;
+	top: 19px;
+
+	font-family: 'Berlingske Serif';
+	font-style: normal;
+	font-weight: 800;
+	font-size: 24px;
+	line-height: 36px;
+	/* or 150% */
+	display: flex;
+	align-items: center;
+	letter-spacing: 0.07em;
+
+	/* основной текст */
+	color: #3F3F46;
+
 }
 
 .more {
@@ -55,9 +245,8 @@ body {
 
 .find_text{
 	position: absolute;
-	width: 745px;
+	width: 160px;
 	height: 36px;
-	right: 580px;
 	top: 12px;
 	left: 450px;
 
@@ -116,13 +305,13 @@ body {
 .lanin_word {
 	margin:0;
 	font-size: 22px;
-	padding-left: 6px;
+	padding-left: 7px;
 	padding-top: 4px;
 	color: #FFF;
 }
 .q {
 	margin-top: 0;
-	padding-top: 5px;
+	padding-top: 3px;
 	padding-left: 5px;
 	font-size: 22px;
 }
@@ -247,10 +436,11 @@ body {
 }
 
 .first_title {
+	position: absolute;
 	width: 231px;
 	height: 11px;
-	left: 23px;
-	top: 100px;
+	left: 16px;
+	top: 90px;
 
 	font-family: 'Berlingske Sans';
 	font-style: normal;
@@ -261,25 +451,27 @@ body {
 	color: #FFFFFF;
 }
 .second_title {
+	position: absolute;
 	width: 268px;
 	height: 112px;
-	left: 23px;
-	top: 80px;
+	left: 15px;
+	top: 60px;
 
 	font-family: 'Berlingske Serif';
 	font-style: normal;
 	font-weight: 800;
-	font-size: 58px;
-	line-height: 60px;
-	letter-spacing: 0.07em;
+	font-size: 80px;
+	line-height: 70px;
+	letter-spacing: 0.09em;
 
 	color: #FFFFFF;
 }
 .third_title {
+	position: absolute;
 	width: 191px;
 	height: 41px;
 	left: 16px;
-	top: 240px;
+	top: 260px;
 
 	font-family: 'Berlingske Serif';
 	font-style: normal;
@@ -289,12 +481,14 @@ body {
 	letter-spacing: 0.02em;
 
 	color: #FFFFFF;
+	z-index: 100;
 }
 
 .fourth_title {
+	position: absolute;
 	width: 94px;
 	height: 17px;
-	left: 23px;
+	left: 16px;
 	top: 372px;
 
 	font-family: 'Berlingske Sans';
@@ -308,9 +502,10 @@ body {
 }
 
 .fifth_title {
+	position: absolute;
 	width: 177px;
 	height: 64px;
-	left: 23px;
+	left: 16px;
 	top: 398px;
 
 	font-family: 'Berlingske Serif';
@@ -347,10 +542,17 @@ body {
 	width: 100px;
 	position: absolute;
 	display: flex;
-	margin-top: -340px;
+	margin-top: 10px;
 	font-size: 481px;
 	margin-left: 45px;
 	color: #fff;
+	font-family: 'Berlingske Serif';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 481px;
+	line-height: 624px;
+	text-align: center;
+	letter-spacing: 0.03em;
 }
 
 
@@ -361,21 +563,38 @@ body {
 	width: 100%;
 }
 .important_number {
-	font-size: 14px;
 	padding-left: 20px;
 	width: 150px;
 	margin:0;
-	padding-top: 14px;
+	padding-top: 24px;
+	font-family: 'Berlingske Serif';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 18px;
+	color: #00A8CB;
 }
 .important_title {
-	font-size: 18px;
 	padding-left: 20px;
 	padding-right: 20px;
+	font-family: 'Berlingske Serif';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 36px;
 }
 .important_text {
-	font-size: 18px;
 	padding-left: 20px;
 	padding-right: 20px;
+	font-family: 'Berlingske Serif';
+
+
+
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 30px;
+	/* or 150% */
+	text-indent: 24px;
 }
 
 
@@ -394,6 +613,16 @@ body {
 	border-bottom: solid 1px #e4e4e7;
 }
 
+.test {
+	position: absolute;
+	width: 130px;
+	margin-left: 55%;
+	margin-top: 133px;
+}
+
+
+
+
 
 
 /*end of up information*/
@@ -403,6 +632,9 @@ body {
 		width: 100%;
 		margin-left: -20px;
 
+	}
+	.logo{
+		display: none;
 	}
 	.menu{
 		margin-top: 72px;
@@ -432,7 +664,12 @@ body {
 		margin-top: 16px;
 
 	}
-
+	.cover_text{
+		width:100%;
+	}
+	.important_number{
+		color: #3F3F46;
+	}
 
 
 	.title_word {
@@ -466,11 +703,28 @@ body {
 
 	.first_title, .second_title, .third_title, .fourth_title, .fifth_title{ padding-right: 2%; padding-left: 2% }
 	.sixth_title {     margin-left: 80px;}
+	.second_title {
+		font-size: 50px;
+		line-height: 40px;
+   		letter-spacing: 0.05em;
+   		top: 80px;
+	}
+	.third_title{
+		top: 200px;
+	}
 }
 
 @media (min-width: 768px){
 	.upper {
 		width: 100%;
+	}
+	.logo{
+		display: none;
+	}
+	.find_text {
+		display: flex;
+		left: 20%;
+		top: 2px;
 	}
 	.menu{
 		margin-top: 72px;
@@ -493,7 +747,10 @@ body {
 		border-radius: 50%;
 	}
 	.important_information{
-		width: 800px;
+		width: 100%;
+	}
+	.important_number{
+		display: none;
 	}
 	.tasks{
 		display: none;
@@ -501,12 +758,32 @@ body {
 	.first_title, .second_title, .third_title, .fourth_title, .fifth_title{ padding-right: 5%; padding-left: 5% }
 	.sixth_title {
 		left: 60%;
+		right: 0;
+		margin-left: 0;
+	}
+	.test {
+		position: absolute;
+		width: 130px;
+		margin-left: 77%;
+		margin-top: 133px;
+	}
+	.second_title {
+		font-size: 80px;
+		line-height: 80px;
+   		letter-spacing: 0.05em;
+   		top: 55px;
+	}
+	.third_title{
+		top: 280px;
 	}
 }
 
 @media (min-width: 1400px){
 	.upper {
 		width: 100%;
+	}
+	.logo{
+		display: block;
 	}
 	.menu{
 		margin-top: 500px;
@@ -516,8 +793,12 @@ body {
 		width: 1200px;
 	}
 	.find {
-		width: 950px;
+		width: 730px;
 		border-radius: 20px;
+	}
+	.find_text {
+		display: flex;
+		left: 27%;
 	}
 	.title {
 		display: none;
@@ -533,6 +814,10 @@ body {
 	.important_information{
 		width: 800px;
 		margin-left: 370px;
+	}
+	.important_number{
+		display: block;
+		color: #00A8CB;
 	}
 	.cover_text {
 		width: 1000px;
@@ -554,12 +839,34 @@ body {
 	.btn{
 		display: none;
 	}
+	.test {
+		position: absolute;
+		width: 130px;
+		margin-left: 75%;
+		margin-top: 133px;
+	}
+	.tasks_title {
+		margin-top: 20px;
+		padding-left: 200px;
+		font-size: 28px;
+	}
+	.tasks_text {
+		width: 600px;
+		margin-left: 200px;
+		padding-top: 10px; 
+		border-bottom: solid 1px #e4e4e7;
+	}
 
 }
 
 @media (min-width: 1920px){
 	.upper {
 		width: 1920px;
+		margin-left: 0;
+	}
+	.logo{
+		display: block;
+		margin-right: 20px;
 	}
 	.menu{
 		margin-top: 500px;
@@ -569,8 +876,12 @@ body {
 		width: 1200px;
 	}
 	.find {
-		width: 950px;
+		width: 770px;
 		border-radius: 20px;
+	}
+	.find_text {
+		display: flex;
+		left: 33%;
 	}
 	.title {
 		display: none;
@@ -587,6 +898,10 @@ body {
 		width: 800px;
 		margin-left: 370px;
 	}
+	.important_number{
+		display: block;
+		color: #00A8CB;
+	}
 	.cover_text {
 		width: 1000px;
 		margin-left: 300px;
@@ -596,7 +911,7 @@ body {
 		display: flex;
 		flex-direction: column;
 	}
-	.first_title, .second_title, .third_title, .fourth_title, .fifth_title{ padding-right: 10%; padding-left: 10% }
+	.first_title, .second_title, .third_title, .fourth_title, .fifth_title{ padding-right: 10%; padding-left: 20% }
 	.sixth_title {
 		padding-right: 5%;
 		left: 67%;
@@ -606,6 +921,23 @@ body {
 	}
 	.btn{
 		display: none;
+	}
+	.test {
+		position: absolute;
+		width: 130px;
+		margin-left: 57%;
+		margin-top: 133px;
+	}
+	.tasks_title {
+		margin-top: 20px;
+		padding-left: 200px;
+		font-size: 28px;
+	}
+	.tasks_text {
+		width: 600px;
+		margin-left: 200px;
+		padding-top: 10px; 
+		border-bottom: solid 1px #e4e4e7;
 	}
 }
 
